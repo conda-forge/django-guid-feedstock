@@ -1,5 +1,5 @@
 {% set name = "django-guid" %}
-{% set version = "3.5.1" %}
+{% set version = "3.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_guid-{{ version }}.tar.gz
-  sha256: 242fdfaf49bf0ba12ebc2d3e289f22a5ff8e0390824483957462de72540d3dff
+  sha256: 0f812a837579031c7db8524b07e498f65b5fcf191857c1f7fb5414a0ceb584fa
 
 build:
   noarch: python
