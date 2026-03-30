@@ -21,7 +21,8 @@ requirements:
     - poetry
   run:
     - python >={{ python_min }}
-    - django >=3.2,<6
+    - django >=4
+    - packaging
 
 test:
   imports:
